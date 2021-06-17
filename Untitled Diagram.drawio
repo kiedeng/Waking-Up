@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T14:26:32.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="i0l_CbEz56baDhYlgGde" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T14:44:25.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="v9TgCWe5YDacMCo663OQ" version="14.7.10" type="github">
   <diagram id="Qwx9zq2sir0bRJ4KOppv" name="Page-1">
-    <mxGraphModel dx="865" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -742,6 +742,31 @@
             <mxPoint x="20" y="1800" as="targetPoint" />
             <Array as="points">
               <mxPoint x="30" y="1905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wg6ZkskC5Z3pUsl3hz7F-646" value="实时数仓的数据服务层，写入ClickHouse" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=楷体;" vertex="1" parent="1">
+          <mxGeometry x="409" y="2270" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wg6ZkskC5Z3pUsl3hz7F-647" value="springboot服务器进行接口开发" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=楷体;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2270" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wg6ZkskC5Z3pUsl3hz7F-648" value="使用sugar将数据大屏可视化处理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=楷体;" vertex="1" parent="1">
+          <mxGeometry x="93" y="2270" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wg6ZkskC5Z3pUsl3hz7F-649" value="" style="endArrow=classic;html=1;fontFamily=楷体;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="2288" as="sourcePoint" />
+            <mxPoint x="376" y="2288" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wg6ZkskC5Z3pUsl3hz7F-650" value="" style="endArrow=classic;html=1;fontFamily=楷体;" edge="1" parent="1" source="wg6ZkskC5Z3pUsl3hz7F-647">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218" y="2228" as="sourcePoint" />
+            <mxPoint x="210" y="2285" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="2285" />
             </Array>
           </mxGeometry>
         </mxCell>
